@@ -1,6 +1,10 @@
+Introduction
+------------
+
 This code book describes the tidy data contents produced by the script 'run_analysis.R'. The section "Study design" has a thorough description of how the data were collated. The section "Code book" describes the variables. 
 
 Study design
+------------
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. 
 
@@ -12,6 +16,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 
 Code book
+---------
 
 The first column of the tidy data set (variable Subject) includes one of 30 volunteers.
 
@@ -19,24 +24,24 @@ The second column (variable Activity) includes one of six activities performed b
 
 The rest of variables (columns 3 to 68) are the signals mentioned in the section Study design that were used to estimate variables of the feature vector for each pattern. '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyBodyAccJerkMag
-fBodyBodyGyroMag
-fBodyBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyBodyAccJerkMag
+* fBodyBodyGyroMag
+* fBodyBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
