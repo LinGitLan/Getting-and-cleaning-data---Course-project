@@ -1,6 +1,6 @@
 # Getting-and-cleaning-data---Course-project
 
-About the script
+About the script 'run_analysis.R'
 ----------------
 
 The goal of the script 'run_analysis.R' is to prepare tidy data that can be used for later analysis. The script 'run_analysis.R' does the following: 
