@@ -1,4 +1,4 @@
-## Read 'subject_train.txt' into R 
+## Read 'subject_train.txt' into R
 subject_train <- read.table("subject_train.txt", header=FALSE, col.names="Subject")
 
 ## Read 'y_train.txt' into R. This is a data frame with activities,
