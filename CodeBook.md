@@ -1,4 +1,4 @@
-Introduction
+Introduction 
 ------------
 
 This code book describes the tidy data contents produced by the script 'run_analysis.R'. The section "Study design" has a thorough description of how the data were collated. The section "Code book" describes the variables. 
